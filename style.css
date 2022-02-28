@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+	outline: none;
+	text-decoration: none;
+	outline: none;
+
+	font-family: 'Space Grotesk', sans-serif;
+    box-sizing: border-box;
+	}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img {
+	border: none;
+}
+
+button,
+a {
+	cursor: pointer;
+	color: inherit;
+}
+
+textarea {
+	resize: none;
+}
+
+textarea,
+select {
+	appearance: none !important;
+	-webkit-appearance: none !important;
+	border-radius: 0;
+}
+
+body {
+    background-color:#ffeedf ;
+}
+
+.topnav {
+    position: relative;
+            
+    width: 100%;
+    height: 60px;
+
+    border-bottom: 1px solid #145434;
+}
+
+.brand {
+    
+    position:absolute;
+    left: 12px;
+    top: 7px;
+    
+    font-size: 36px;
+    font-weight: 500;
+    
+    color: #145434;    
+    
+}
+
+.material-icons.md-36 {
+    
+    position:absolute;
+    top: 12px;
+    right: 12px;
+
+    color: #145434;
+    font-size: 36px;    
+  
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.card {
+    
+    background-color: #145434;
+}
