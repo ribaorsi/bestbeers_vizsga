@@ -89,8 +89,7 @@ header .material-icons.md-36 {
     margin: 40px;
 }
 
-#card {
-    display: inline-flex;
+.card {
     flex-direction: column;
     position: relative;
 
@@ -99,7 +98,7 @@ header .material-icons.md-36 {
     background-color: #145434;
 }
 
-#number {
+.number {
     display: flex;
     position:absolute;
     top: -20px;
@@ -120,11 +119,11 @@ header .material-icons.md-36 {
     font-weight: 400;
 }
 
-#textcontainer {
+.textcontainer {
     margin: 30px;
 }
 
-#title {
+.title {
     padding-bottom: 30px;
     color: #ffeedf;
     border-bottom: 0.1rem solid #ffeedf;
@@ -132,7 +131,7 @@ header .material-icons.md-36 {
     font-size: 36px;
 }
 
-#sub {
+.sub {
     
     padding-top: 20px;
     color: #ffeedf;
@@ -141,7 +140,7 @@ header .material-icons.md-36 {
     font-weight: 400;
 }
 
-#text {
+.text {
     padding-bottom: 20px;
     color: #ffeedf;
 
