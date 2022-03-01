@@ -125,7 +125,9 @@ header .material-icons.md-36 {
 }
 
 .title {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    min-height: 90px;
+    
     color: #ffeedf;
     border-bottom: 0.1rem solid #ffeedf;
 
