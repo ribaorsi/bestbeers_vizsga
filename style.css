@@ -42,6 +42,7 @@ select {
 }
 
 body {
+    
     background-color:#ffeedf ;
 }
 
@@ -61,13 +62,13 @@ body {
     top: 7px;
     
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 600;
     
     color: #145434;    
     
 }
 
-.material-icons.md-36 {
+header .material-icons.md-36 {
     
     position:absolute;
     top: 12px;
@@ -79,10 +80,108 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;   
+
     max-width: 1200px;
+    margin: 40px;
 }
 
-.card {
-    
+#card {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+
+    width: 400px;
+    margin: 30px;
     background-color: #145434;
+}
+
+#number {
+    display: flex;
+    position:absolute;
+    top: -20px;
+    left: -20px;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+    border: 0.15rem solid #145434;
+    border-radius: 50%;
+   
+    background-color: #ffeedf;
+    color:#145434;
+
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#textcontainer {
+    margin: 30px;
+}
+
+#title {
+    padding-bottom: 30px;
+    color: #ffeedf;
+    border-bottom: 0.1rem solid #ffeedf;
+
+    font-size: 36px;
+}
+
+#sub {
+    
+    padding-top: 20px;
+    color: #ffeedf;
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#text {
+    padding-bottom: 20px;
+    color: #ffeedf;
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+
+    width: 200px;
+    height: 50px;
+
+    font-size: 14px;
+
+    background-color: #ffeedf;
+    color:#145434;
+
+    border: 0.15em solid #145434
+}
+
+button .material-icons.md-36 {
+    
+    position: absolute;
+    top: 7px;
+    right: 7px;
+
+    color: #145434;
+    font-size: 36px; 
+}
+
+button:hover {
+    background-color: #145434;
+    color:#ffeedf;
+    border: 0.15em solid #ffeedf;
+    
+}
+
+button:hover .material-icons.md-36 {
+    color:#ffeedf;
 }
