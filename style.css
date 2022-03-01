@@ -83,10 +83,11 @@ header .material-icons.md-36 {
     display: flex;
     flex-wrap: wrap; 
     align-items: center;
-    justify-content: center;   
+    justify-content: center;     
 
     max-width: 1200px;
-    margin: 40px;
+    margin: auto;
+    margin-top: 40px;
 }
 
 .card {
